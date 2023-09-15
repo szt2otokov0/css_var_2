@@ -1,0 +1,76 @@
+:root{
+    --b1:purple;
+    --b2:gray;
+    --b3:aqua;
+    --b4: seagreen;
+    --b5:indianred;
+    --b6: salmon;
+    --b7:fuchsia;
+    --b8: orangered;
+    --bg-root:#FFFFFF;
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-root);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height:50%;
+}
+
+.block {
+    min-width: 10rem;
+    width: 23%;
+    margin:0.5rem;
+    margin-bottom: 1em;
+    height: 90%;
+    background-color: aqua;
+}
+
+button {
+    height: 2em;
+    width: 4em;
+    margin-left: 2em;
+}
+
+#b1{
+    background-color: var(--b1);
+}
+
+#b2{
+    background-color: var(--b2);
+}
+
+#b3{
+    background-color: var(--b3);
+}
+
+#b4{
+    background-color: var(--b4);
+}
+
+#b5{
+    background-color: var(--b5);
+}
+
+#b6{
+    background-color: var(--b6);
+}
+
+#b7{
+    background-color: var(--b7);
+}
+
+#b8{
+    background-color: var(--b8);
+}
+
