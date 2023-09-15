@@ -42,6 +42,11 @@ button {
     margin-left: 2em;
 }
 
+input[type=number]{
+    height: 2em;
+    margin: 0 1em;
+}
+
 #b1{
     background-color: var(--b1);
 }
